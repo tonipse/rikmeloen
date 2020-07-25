@@ -1,0 +1,77 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    img {
+        height: 100px;
+    }
+
+}
+
+nav {
+    height: 120px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+
+}
+
+.slider {
+    margin-top: 120px;
+
+    .indicators {
+        position: relative;
+        margin-top: 210px;
+    }
+
+    .slides {
+        li {
+            height: 600px;
+
+            img {
+                background-position: top;
+                background-size: contain;
+            }
+        }
+    }
+
+}
+
+main {
+    margin-top: 300px;
+}
+
+.indicator-item.active {
+    background-color: #ee6e73 !important;
+}
+
+.t-header {
+    background-color: #ee6e73;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.t-list {
+    li {
+        text-align: center;
+        font-size: 16pt;
+    }
+}
+
+.t-tbody {
+    tr {
+        td {
+            text-align: center;
+            font-size: 15pt;
+        }
+    }
+}
+
+.fb-iframe {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
