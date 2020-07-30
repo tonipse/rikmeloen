@@ -1,0 +1,28 @@
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.logo img {
+  height: 100px;
+}
+
+nav {
+  height: 120px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.t-main {
+  margin-top: 130px;
+}
+/*# sourceMappingURL=style.css.map */
